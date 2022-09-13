@@ -1,20 +1,21 @@
 #include "main.h"
 
 /**
- * print_alphabet - print alphabet lowercase
+ * print_alphabet - prints alphabet to terminal
  *
- * Return: Always 0.
+ * Description: Prints the letters of the english alphabet
+ * in lowercase.
+ * Return: Void
  */
 
 void print_alphabet(void)
 {
-char alphabet;
+	char letter = 'a';
 
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-{
-_putchar(alphabet);
-}
-
-_putchar('\n');
-
+	while (letter <= 'z')
+	{
+		_putchar(letter);
+		letter++;
+	}
+	_putchar('\n');
 }
