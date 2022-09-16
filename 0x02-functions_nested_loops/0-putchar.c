@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #include <unistd.h>
 
 /**
@@ -10,4 +11,25 @@
 int _putchar(char c)
 {
 	return (write(1, &c, 1));
+=======
+#include "main.h"
+
+/**
+ * main - prints _putchar
+ * followed by a new line
+ * Return: 0 always (success)
+ */
+int main(void)
+{
+	_putchar('_');
+	_putchar('p');
+	_putchar('u');
+	_putchar('t');
+	_putchar('c');
+	_putchar('h');
+	_putchar('a');
+	_putchar('r');
+	_putchar('\n');
+	return (0);
+>>>>>>> fa775f2add827241b23ed299de21ac82919549c6
 }
